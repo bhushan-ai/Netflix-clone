@@ -1,0 +1,91 @@
+/* Index page */
+
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  height: 90vh;
+  background-image: url("../images/Stranger-Things-Season-5-Banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 10px;
+}
+
+.nav-section h2 {
+  transition: all 0.3s ease;
+  color: red;
+}
+.nav-section h2:hover {
+  transform: scale(0.9);
+}
+
+.nav-section nav a {
+  text-decoration: none;
+  color: lightgrey;
+  padding: 5px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+.nav-section nav a:hover {
+  color: whitesmoke;
+}
+.hero-content {
+  height: 50px;
+  width: 40%;
+  padding: 40px;
+  position: absolute;
+  top: 45vh;
+  left: 30vh;
+}
+.hero-content h1 {
+  font-weight: 900;
+}
+.hero-content p {
+  margin-top: 3px;
+  padding: 4px;
+  font-size: medium;
+}
+
+.hero-content button {
+  margin-top: 10px;
+  padding: 8px 19px;
+  border: none;
+  color: black;
+  background-color: rgb(246, 244, 244);
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hero-content button:hover {
+  background-color: white;
+}
+
+.hero-content .info-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 8px 19px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(135, 135, 135);
+  border-radius: 3px;
+}
+.hero-content .info-btn:hover {
+  background-color: rgb(68, 68, 68);
+}
+
+.featuring-movies {
+  background-image: linear-gradient(to top, rgb(252, 2, 2), black);
+  height: 50vh;
+}
