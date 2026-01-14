@@ -3,7 +3,7 @@
 Cineplix is a **Netflix-inspired movie streaming UI** built using **HTML5 and CSS3**.  
 This project focuses on **modern layouts, responsiveness, and clean UI design**, without using JavaScript or any backend logic.
 
-🔗 **Live Demo:** [https://your-vercel-link.vercel.app](https://cinephlix.vercel.app/)
+🔗 **Live Demo:** [https://cinephlix.vercel.app](https://cinephlix.vercel.app/)
 
 ---
 
