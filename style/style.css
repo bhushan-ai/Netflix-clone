@@ -362,7 +362,6 @@ footer {
   position: absolute;
   top: 55vh;
   left: 20vh;
-
 }
 .hero-content-tv-shows h1 {
   font-weight: 900;
@@ -399,5 +398,90 @@ footer {
   border-radius: 3px;
 }
 .hero-content-tv-shows .info-btn:hover {
+  background-color: rgb(68, 68, 68);
+}
+
+/* movies pages */
+
+.hero-movies {
+  height: 100vh;
+  background-image: url("../images/enemy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.movies-nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 10px;
+}
+
+.movies-nav-section h2 {
+  transition: all 0.3s ease;
+  color: red;
+  transition: all 0.3s ease;
+}
+.movies-nav-section h2:hover {
+  transform: scale(1.1);
+}
+
+.movies-nav-section nav a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  padding: 5px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+.movies-nav-section nav a:hover {
+  color: whitesmoke;
+  transform: scale(1.1);
+}
+.hero-content-movies {
+  height: 50px;
+  width: 40%;
+  padding: 40px;
+  position: absolute;
+  top: 40vh;
+  left: 20vh;
+}
+.hero-content-movies h1 {
+  font-weight: 900;
+  color: black;
+}
+.hero-content-movies p {
+  margin-top: 3px;
+  padding: 4px;
+  font-size: medium;
+  color: rgb(79, 79, 79);
+}
+
+.hero-content-movies button {
+  margin-top: 10px;
+  padding: 8px 19px;
+  border: none;
+  color: black;
+  background-color: rgb(246, 244, 244);
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hero-content-movies button:hover {
+  background-color: white;
+}
+
+.hero-content-movies .info-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 8px 19px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(135, 135, 135);
+  border-radius: 3px;
+}
+.hero-content-movies .info-btn:hover {
   background-color: rgb(68, 68, 68);
 }
