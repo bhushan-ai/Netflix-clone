@@ -29,6 +29,7 @@
 }
 .nav-section h2:hover {
   transform: scale(1.1);
+  text-decoration: underline;
 }
 
 .nav-section nav a {
@@ -41,6 +42,7 @@
 .nav-section nav a:hover {
   color: whitesmoke;
   transform: scale(1.1);
+  text-decoration: underline;
 }
 .hero-content {
   height: 50px;
@@ -353,6 +355,7 @@ footer {
 .tv-shows-nav-section nav a:hover {
   color: rgb(7, 7, 7);
   transform: scale(1.1);
+  text-decoration: underline;
 }
 .hero-content-tv-shows {
   height: 50px;
@@ -438,6 +441,7 @@ footer {
 .movies-nav-section nav a:hover {
   color: whitesmoke;
   transform: scale(1.1);
+  text-decoration: underline;
 }
 .hero-content-movies {
   height: 50px;
@@ -517,6 +521,7 @@ footer {
 .pricing-nav-section nav a:hover {
   color: whitesmoke;
   transform: scale(1.1);
+  text-decoration: underline;
 }
 
 /* summary-of-plan */
