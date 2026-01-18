@@ -228,8 +228,31 @@ footer {
   display: flex;
   align-items: center;
   gap: 60px;
+  position: relative;
 }
 
+footer .icons {
+  position: absolute;
+  top: 87%;
+  left: 30%;
+  color: rgb(77, 76, 76);
+  font-size: large;
+}
+footer .icons a {
+  display: inline;
+  font-size: medium;
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+footer .icons a svg {
+  height: 20px;
+  width: 20px;
+  transition: all 0.3 ease;
+}
+footer .icons a svg:hover {
+  transform: scale(1.2);
+}
 .logo-lang {
   padding: 8px;
   margin: 6px;
@@ -800,4 +823,250 @@ footer {
 
 .login small a.learn-more:hover {
   text-decoration: underline;
+}
+
+/* Watchlist page */
+
+.my-list {
+  background-color: #121212;
+  height: 50vh;
+}
+
+.my-list h1 {
+  color: white;
+  padding: 10px 20px;
+}
+
+.my-list div {
+  height: 60%;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.my-list div img {
+  width: fit-content;
+  height: 55%;
+}
+
+/* /* Responsive style */
+
+/* mobile */
+@media (max-width: 375px) {
+  .hero {
+    width: 67.9vh;
+    height: 67vh;
+  }
+  .nav-section nav a {
+    display: none;
+  }
+
+  .hero-content {
+    width: 65vh !important;
+    top: 24vh !important;
+    left: 0;
+  }
+  .hero-content h1 {
+    font-weight: 500;
+  }
+  .hero-content p {
+    margin-top: 3px;
+    padding: 2px;
+    font-size: small;
+  }
+  .hero-content button {
+    padding: 4px 17px;
+  }
+  .hero-content .info-btn {
+    padding: 5px 17px;
+  }
+  hero-content .info-btn {
+    padding: 4px 13px;
+  }
+  .featuring-movies {
+    height: 159vh !important;
+    width: 67.9vh !important;
+  }
+  .featuring-movies-wrapper {
+    flex-wrap: wrap;
+  }
+  .movie-cards {
+    width: 28% !important;
+  }
+
+  .featuring-Tv-Series {
+    height: 159vh !important;
+    width: 67.9vh !important;
+  }
+
+  .featuring-Anime {
+    height: 159vh !important;
+    width: 67.9vh !important;
+  }
+  .features {
+    height: 50vh !important;
+    width: 67.9vh !important;
+  }
+  .feature-sentence {
+    width: 89% !important;
+    padding: 5px;
+    margin: 0px;
+  }
+  .feature-sentence h1 {
+    font-size: x-large;
+  }
+  footer {
+    height: 50vh;
+    width: 67.9vh;
+    padding: 5px;
+    gap: 16px;
+  }
+  .logo-lang {
+    padding: 2px;
+    margin-left: 10px;
+    width: 20%;
+  }
+  .logo-lang h2 {
+    font-size: medium;
+  }
+  .logo-lang select {
+    padding: 8px 4px;
+  }
+  .explore-legal-support {
+    gap: 12px;
+  }
+  footer .icons a {
+    padding: 0 3px;
+  }
+  footer .icons {
+    top: 90%;
+  }
+}
+
+/* tab */
+@media (max-width: 768px) {
+  .hero-content {
+    width: 66%;
+    top: 42vh;
+    left: 0;
+  }
+  .featuring-movies {
+    height: 100vh;
+  }
+  .featuring-movies-wrapper {
+    flex-wrap: wrap;
+  }
+  .movie-cards {
+    width: 22%;
+  }
+  .featuring-Tv-Series {
+    height: 100vh;
+  }
+
+  .featuring-Anime {
+    height: 100vh;
+  }
+
+  .features {
+    height: 70vh;
+  }
+  .feature-sentence {
+    width: 69%;
+  }
+
+  /* TV-shows page */
+  .hero-content-tv-shows h1 {
+    display: none;
+  }
+  .hero-content-tv-shows {
+    width: 70%;
+    top: 50vh;
+    left: 0;
+  }
+
+  /* Movies */
+
+  .hero-content-movies {
+    width: 60%;
+    top: 40vh;
+    left: 0vh;
+  }
+
+  /* Pricing */
+  .plan-features h1 {
+    font-size: x-large;
+  }
+  .plan-features {
+    width: 65%;
+  }
+  .gift-box {
+    width: 30%;
+    padding: 0;
+    gap: 5px;
+  }
+
+  .pricing-table-info {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .pricing-table table {
+    width: 90%;
+  }
+  .pricing-table table p {
+    width: 100% !important;
+  }
+
+  /* Login page */
+  .hero-login h1 a {
+    font-size: 0.9cm;
+  }
+  .login {
+    width: 400px;
+  }
+  .login p {
+    font-size: medium;
+  }
+  .form-div form span {
+    position: absolute;
+    left: 70%;
+  }
+  .login p {
+    display: block;
+    margin-top: 100px;
+  }
+  .login a {
+    font-size: medium;
+    top: 81.2%;
+    left: 47%;
+  }
+  .login small a.learn-more {
+    top: 95.2%;
+    left: 54%;
+    font-size: small;
+  }
+}
+/*  .contact-form-wrapper form {
+    width: 100% !important;
+  }
+  nav {
+    display: none;
+  }
+  .cards {
+    width: 100% !important;
+  }
+
+  .features-box{
+    flex-direction: column;
+  } */
+
+/*   .cards {
+    width: 29%;
+  }
+  .contact-form-wrapper form {
+    width: 75%;
+  } */
+
+/* laptop */
+@media (max-width: 1024px) {
 }
