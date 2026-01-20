@@ -92,7 +92,7 @@
 
 .featuring-movies {
   background-image: linear-gradient(to top, rgb(252, 2, 2), black);
-  height: 50vh;
+  height: fit-content;
   padding: 5px;
 }
 
@@ -854,10 +854,10 @@ footer .icons a svg:hover {
 /* mobile */
 @media (max-width: 375px) {
   .hero {
-    width: 67.9vh;
-    height: 67vh;
+    width: 119.1% !important;
   }
-  .nav-section nav a {
+
+  /* .nav-section nav a {
     display: none;
   }
 
@@ -940,7 +940,7 @@ footer .icons a svg:hover {
   }
   footer .icons {
     top: 90%;
-  }
+  } */
 }
 
 /* tab */
