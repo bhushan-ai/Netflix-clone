@@ -159,7 +159,7 @@
 /* Anime */
 .featuring-Anime {
   background-image: linear-gradient(to top, rgb(252, 2, 2), black);
-  height: 50vh;
+  height: fit-content;
   padding: 5px;
 }
 .featuring-Anime h1 {
