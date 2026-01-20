@@ -146,7 +146,7 @@
 /* Tv Series */
 .featuring-Tv-Series {
   background-image: linear-gradient(to top, black, rgb(252, 2, 2));
-  height: 50vh;
+  height: fit-content;
   padding: 5px;
 }
 
